@@ -51,4 +51,6 @@ def bracoRobo(theta1, theta2):
         plt.text(xlist[i], ylist[i], f'({xlist[i]}, {ylist[i]})')
     plt.show()
 
-bracoRobo(10,35)
+    return (xlist[-1], ylist[-1])
+
+print(bracoRobo(10,35))
