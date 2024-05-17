@@ -7,8 +7,6 @@ def checkFloatEquality(a, b):
     return False
 
 def inversa_eliminacao(mat):
-    # Evitando Alterações Externas à Função
-    mat = numpy.copy(mat)
     # Gerando a Matriz Identidade
     id = numpy.zeros((len(mat), len(mat)))
     for i in range(len(mat)):
